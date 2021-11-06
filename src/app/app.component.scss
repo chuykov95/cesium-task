@@ -1,0 +1,38 @@
+.container {
+  max-width: 1738px;
+  max-height: 815px;
+
+  padding: 50px;
+  margin: 50px;
+
+
+  .card {
+    display: inline-block;
+    box-sizing: border-box;
+
+    margin: 20px;
+
+    width: 680px;
+    height: 320px;
+
+    border: 10px solid #7E7E7E;
+    border-radius: 50px;
+
+    background: #C4C4C4;
+
+    .map {
+      margin: auto;
+
+      width: 585px;
+      height: 300px;
+
+      background-color: wheat;
+    }
+
+  }
+  .active {
+    border: 10px solid #D90000;
+    background: #FFA9A9;
+  }
+
+}

@@ -1,0 +1,15 @@
+<div class="container">
+
+  <div
+    class="card"
+    (click)="activeMap = idx"
+    [ngClass]="{'active': activeMap === idx}"
+    *ngFor="let c of Arr(countMap).fill(1), let idx = index"
+  >
+    <div appCesiumMap class="map"></div>
+  </div>
+
+</div>
+
+
+

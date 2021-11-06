@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/angular-cesium-task",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
